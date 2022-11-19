@@ -1,0 +1,23 @@
+  #root {
+    text-align: center;
+  }
+
+  #navigation ul li {
+    list-style: none;
+  }
+
+  #navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+
+  #save-button {
+    margin-top: 10px;
+  }
+
+  #root {
+    width: 500px;
+    margin: auto;
+  }

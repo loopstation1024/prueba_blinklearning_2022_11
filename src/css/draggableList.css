@@ -1,0 +1,28 @@
+#draggable-list-container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+#draggable-list {
+    margin: 0;
+    padding: 0;
+}
+.dnd-list__draggable {
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    background: grey;
+    color: #fff;
+    margin-bottom: 11px;
+}
+
+.right-answer {
+    background: green;
+}
+
+.wrong-answer {
+    background: rgb(163, 0, 0);
+}
